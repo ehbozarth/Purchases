@@ -16,10 +16,11 @@ public class Purchase {
 
     String date;
     String credit_card;
-    String cvv;
+    Integer cvv;
     String category;
 
     @ManyToOne
     Customer customer;
+    //This is where customer_id is generated and stored
 
 }
